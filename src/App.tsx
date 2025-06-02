@@ -1,10 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import MeasurementPage from './pages/MeasurementPage';
 
 function App() {
   return (
-    <div>
-      <Dashboard />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/measurement/:metricId" element={<MeasurementPage />} />
+      </Routes>
+    </Router>
   );
 }
 

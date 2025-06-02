@@ -28,7 +28,8 @@
   "homepage": "https://github.com/suzhanlee/ai-interview-dashboard#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.8",
